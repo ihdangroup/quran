@@ -5,7 +5,7 @@ type SearchSurahType = {
   name: string;
   setName: Dispatch<SetStateAction<string>>;
   setSearch: Dispatch<SetStateAction<string>>;
-  filterManufacturs: IsiSurahType[] | null;
+  filterManufacturs: IsiSurahType[] | null | undefined;
   setNoSurah: Dispatch<SetStateAction<string>>;
 };
 
