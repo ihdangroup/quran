@@ -33,10 +33,8 @@ const Surah = () => {
     setSemuaSurah(dataSurah.data);
   }
 
-  async function getSurah() {
-    const handleSurah = await fetch(
-      `https://equran.id/api/v2/surat/${noSurah}`
-    );
+  async function getSurah(no: any) {
+    const handleSurah = await fetch(`https://equran.id/api/v2/surat/${no}`);
     const { data } = await handleSurah.json();
     setSurah(data);
     setLoading(false);
@@ -45,8 +43,8 @@ const Surah = () => {
 
   React.useEffect(() => {
     getSemuaSurah();
-    getSurah();
-  }, []);
+    getSurah(noSurah);
+  }, [noSurah]);
 
   return (
     <div className="p-4 lg:p-8 bg-gray-50 dark:bg-gray-900 min-h-screen">
