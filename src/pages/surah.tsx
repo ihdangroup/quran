@@ -46,7 +46,7 @@ const Surah = () => {
   React.useEffect(() => {
     getSemuaSurah();
     getSurah();
-  }, [noSurah]);
+  }, []);
 
   return (
     <div className="p-4 lg:p-8 bg-gray-50 dark:bg-gray-900 min-h-screen">
