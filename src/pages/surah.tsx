@@ -51,7 +51,7 @@ const Surah = () => {
   return (
     <div className="p-4 lg:p-8 bg-gray-50 dark:bg-gray-900 min-h-screen">
       <h3 className="text-xl font-bold text-center text-gray-800 dark:text-gray-200 my-6">
-        Bacalah Al-Qur'an dengan Tartil
+        Bacalah Al-Qur&apos;an dengan Tartil
       </h3>
       <SearchSurah
         name={name}

@@ -11,7 +11,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Head>
-        <title>Landing Page Al-Qur'an</title>
+        <title>Landing Page Al-Qur&apos;an</title>
         <meta name="description" content="Landing page untuk Al-Qur'an" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
