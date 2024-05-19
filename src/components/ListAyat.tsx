@@ -56,7 +56,7 @@ const ListAyat = ({
         ) : (
           ayatSurah?.map((ayat) => (
             <div
-              key={ayat.number}
+              key={ayat.nomorAyat}
               className="p-4 bg-gray-100 dark:bg-gray-700 rounded-lg shadow-md my-2"
             >
               <h5 className="text-2xl text-right mb-2 text-gray-800 dark:text-gray-200">

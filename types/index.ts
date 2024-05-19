@@ -5,13 +5,7 @@ type AudioPlay = {
   "04": string;
   "05": string;
 };
-export type AyatType = {
-  nomorAyat: string;
-  teksArab: string;
-  teksLatin: string;
-  teksIndonesia: string;
-  audio: AudioPlay;
-}[];
+export type AyatType = any;
 export type IsiSurahType = {
   nomor: string;
   nama: string;
@@ -20,5 +14,5 @@ export type IsiSurahType = {
   tempatTurun: string;
   arti: string;
   deskripsi: string;
-  audioFull: AudioPlay;
+  audioFull: any;
 };
