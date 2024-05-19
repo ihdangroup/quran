@@ -1,8 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import Features from "../Features";
 import Footer from "../Footer";
-import Hero from "../Hero";
 
 type LayoutProps = {
   children: React.ReactNode;

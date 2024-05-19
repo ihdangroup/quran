@@ -1,7 +1,5 @@
 import ListAyat from "@/components/ListAyat";
-import ListSurah from "@/components/ListSurah";
-import SearchSurah from "@/components/Search";
-import Skeleton from "@/components/Skeleton";
+import SearchSurah from "@/components/SearchSearch";
 import React from "react";
 import { AyatType, IsiSurahType } from "../../types";
 
