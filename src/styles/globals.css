@@ -1,19 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@600&display=swap");
+root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
 }
 
 body {
@@ -30,4 +22,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h5 {
+  font-family: "Amiri", serif;
 }
